@@ -19,7 +19,7 @@ const MissingAuthModal = ({ open, close }) => {
         <DialogTitle id="alert-dialog-title">{"Missing Authentification Parameters"}</DialogTitle>
         <DialogContent>
           <DialogContentText>
-              .env.example.js file in the root structure of this application is missing github access token. You can generate your token
+              .env.example.js file in the src folder of this application is missing github access token. You can generate your token
               by going into your GitHub profile settings / developer settings / personal access token.
           </DialogContentText>
         </DialogContent>
