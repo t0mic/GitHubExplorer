@@ -1,0 +1,6 @@
+export const API_STATES = {
+  INITIAL: "INITIAL",
+  PENDING: "PENDING",
+  LOADED: "LOADED",
+  ERROR: "ERROR",
+};
